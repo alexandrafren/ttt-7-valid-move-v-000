@@ -5,6 +5,7 @@ def valid_move?(index)
       return false
     else !position_taken?
       return true
+    end
   else !index.between?(0,8)
     return false
   end
